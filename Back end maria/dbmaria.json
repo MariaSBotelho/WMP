@@ -1,0 +1,96 @@
+{
+    "title": "Página Preenchimento de dados",
+    "header": {
+      "title": "We Make Program",
+      "menuLinks": [
+        {"text": "Menu", "href": ""},
+        {"text": "Login", "href": ""},
+        {"text": "Cadastro", "href": ""}
+      ]
+    },
+    "main": {
+      "title": "Preencha os resultados do seu exame:",
+      "exams": [
+        {"name": "Hemograma", "placeholder": "Digite aqui o resultado"},
+        {"name": "Glicose", "placeholder": "Digite aqui o resultado"},
+        {"name": "Hemoglobina", "placeholder": "Digite aqui o resultado"},
+        {"name": "Colesterol total", "placeholder": "Digite aqui o resultado"},
+        {"name": "HDL", "placeholder": "Digite aqui o resultado"},
+        {"name": "LDL", "placeholder": "Digite aqui o resultado"},
+        {"name": "Triglicérides", "placeholder": "Digite aqui o resultado"},
+        {"name": "Creatina", "placeholder": "Digite aqui o resultado"},
+        {"name": "Uréia", "placeholder": "Digite aqui o resultado"},
+        {"name": "Vitamina D", "placeholder": "Digite aqui o resultado"},
+        {"name": "Cálcio", "placeholder": "Digite aqui o resultado"},
+        {"name": "Vitamina B12", "placeholder": "Digite aqui o resultado"},
+        {"name": "Ferritina", "placeholder": "Digite aqui o resultado"},
+        {"name": "Potássio", "placeholder": "Digite aqui o resultado"},
+        {"name": "Magnésio", "placeholder": "Digite aqui o resultado"}
+      ]
+    },
+    "footer": {
+      "text": "..."
+    },
+    "resultados": [
+      {
+        "nomeExame": "Hemograma",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Glicose",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Hemoglobina",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Colesterol total",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "HDL",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "LDL",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Triglicérides",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Creatina",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Uréia",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Vitamina D",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Cálcio",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Vitamina B12",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Ferritina",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Potássio",
+        "resultado": "valor"
+      },
+      {
+        "nomeExame": "Magnésio",
+        "resultado": "valor"
+      }
+    ]
+  }

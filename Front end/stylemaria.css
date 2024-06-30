@@ -1,0 +1,123 @@
+::-webkit-scrollbar-track {
+    background-color:#f0f0f0;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(57, 150, 173);
+  }
+  
+  p{
+    font-size:x-large;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      background-color: white ;
+  
+  }
+
+  .text-white {
+    text-decoration: none;
+  }
+  
+  .titulo{
+    display: grid;
+    grid-template-columns: 4fr 8fr; 
+  }
+  img{
+    width: auto;
+    height: 100px;
+    padding:10px;
+  }
+  header {
+    background-color: rgb(124, 203, 223);
+    color: #fff;
+    padding: 10px 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; 
+  
+  }
+  
+  .principal {
+    font-size: 16px; 
+  }
+  
+  footer{
+    background-color: rgb(124, 203, 223);
+    height: 80px;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+
+  }
+  .footer{
+    font-size: 15px;
+  }
+  h2{
+    padding: 10px;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: rgb(186, 226, 236) ;
+    border: 10px;
+    margin-right: auto;
+  }
+  
+  .exame {
+    padding: 5px 0px;
+    align-items: center;
+  }
+  
+  .exame:nth-child(odd) {
+    background-color: #b7dee8;
+  }
+  
+  .exame:nth-child(even) {
+    background-color: #daeef3;
+  }
+  
+  .exame p{
+    margin: 0;
+  }
+  
+  .exame input{
+    padding: 3px 10px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .exame input:focus {
+    outline: none;
+    border-bottom-color: black;
+  }
+  
+  

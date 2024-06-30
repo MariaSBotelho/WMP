@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.titulo img {
+    width: auto;
+    height: 100px;
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(124, 203, 223);
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%; /* Garante que o cabeçalho ocupe toda a largura */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-white {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.carousel img.active {
+    display: block;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(243, 239, 239, 0);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(124, 203, 223);
+    height: 80px;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+.footer{
+    font-size: 15px; 
+}
+.titulo{
+    display: grid;
+    grid-template-columns: 5fr 7fr; 
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+footer div {
+    margin-bottom: 10px;
+}
+
+/* RODA PÉ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+    bottom: 0px;
+    background-color: rgb(124, 203, 223);
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+
+footer p {
+    font-size: 15px;
+}
+
+
